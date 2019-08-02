@@ -20,16 +20,27 @@
   I want to become a civil engineer and I hope to obtain my PhD in this field.
 
 <head>
-  <video width="320" height="240" align="left" controls>
-  <source src="vid 2.mp4" type="video/mp4">
-</video>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Friends')">Friends</button>
+    <button class="tablinks" onclick="openTab(event, 'Academic interests')">Academic interests</button>
+    <button class="tablinks" onclick="openTab(event, 'Vocal')">Vocal</button>
+  </div>
 
+  <!-- Tab content -->
+  <div id="Friends" class="tabcontent">
+    <h3>Friends</h3>
+    <p>These are my friends.</p>
+  </div>
 
-<link rel="stylesheet" href="inclassCSS.css">
-</head>
+  <div id="Academic Interests" class="tabcontent">
+    <h3>Academic Interests</h3>
+    <p>I enjoy math a lot. My favorite subjects are Trig and Pre-calc .</p>
+  </div>
 
-<body>
-<p id="par"></P>
-<script src="inClassJS.js"></script>
-</body>
-</html>
+  <div id="Vocal" class="tabcontent">
+    <h3>Vocal</h3>
+    <p>I learned to start singing more advanced pieces when I entered high school. I have experience singing
+    <p>in French, Italian, German, Dutch, Czech, English, and others. I especially enjoy singing musical theater
+    <p> because I am able to express myself even more. </p>
+  </div>
