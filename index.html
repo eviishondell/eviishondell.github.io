@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="inclassCSS.css">
+<script src="inclasJS.JS">
+</script>
 <html style="background-color:red;">
 <body>
 
@@ -20,67 +23,36 @@
   I want to become a civil engineer and I hope to obtain my PhD in this field.
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  body {font-family: Arial;}
 
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-
-  /* Style the buttons inside the tab */
-
-  /* Fade in tabs */
-  @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-
-  @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-  </style>
-
-  <h3></h3>
-
-  </body>
-
-
-  <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Friends')">Friends</button>
-    <button class="tablinks" onclick="openTab(event, 'Academic interests')">Academic interests</button>
-    <button class="tablinks" onclick="openTab(event, 'Vocal')">Vocal</button>
-  </div>
-
-  <!-- Tab content -->
-  <div id="Friends" class="tabcontent">
-    <h3>Friends</h3>
-    <p>These are my friends.</p>
-  </div>
-
-  <div id="Academic Interests" class="tabcontent">
-    <h3>Academic Interests</h3>
-    <p>I enjoy math a lot. My favorite subjects are Trig and Pre-calc .</p>
-  </div>
-
-  <div id="Vocal" class="tabcontent">
-    <h3>Vocal</h3>
-    <p>I learned to start singing more advanced pieces when I entered high school. I have experience singing
-    <p>in French, Italian, German, Dutch, Czech, English, and others. I especially enjoy singing musical theater
-    <p> because I am able to express myself even more. </p>
-  </div>
-
-
-<link rel="stylesheet" href="inclassCSS.css">
 </head>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Friends</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Academic Interest</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Vocal</button>
+</div>
+
+<!-- Tab content -->
+<div id="Friends" class="tabcontent">
+  <p>
+    These are my friends :)
+  </p>
+</div>
+
+<div id="Academic Interest" class="tabcontent">
+  <p>
+    I enjoy math a lot. My favorite subjects are Trig and Pre-calc.
+  </p>
+</div>
+
+<div id="Vocal" class="tabcontent">
+  <p>
+    I learned to start singing more advanced pieces when I entered high school.
+    I have experience singingin French, Italian, German, Dutch, Czech, English,
+    and others. I especially enjoy singing musical theater because I am able to
+    express myself even more.
+  </p>
+</div>
 
 <body>
-<p id="par"></P>
-<script src="inClassJS.js"></script>
 </body>
 </html>
